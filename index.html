@@ -1,0 +1,1278 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/hash.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
+    <title>Creative English</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div class="pageGrid">
+      <main>
+        <section id="m1">
+          <div id="book-wrapper">
+            <div id="flipbook">
+              <div class="page hard p1 simpleGrid main" data-free="true">
+                <!-- First page -->
+                <div class="inner n0-i1">
+                  <img src="img/first-page.png" alt="" />
+                </div>
+              </div>
+              <!-- Story -->
+              <div
+                class="page p2 simpleGrid"
+                data-type="prompt-generator"
+                data-task-id="task1"
+              >
+                <div class="inner n0-i1 task-static-image">
+                  <img
+                    class="logo"
+                    src="img/1-image1.png"
+                    alt="The Little Goddess"
+                  />
+                </div>
+                <div class="inner n0-i2 mt-md-single task-content">
+                  <p class="para1">
+                    Priya is a <span class="red">young girl</span>. She lived in
+                    a <span class="purple">small village</span>. Every night,
+                    the village became dark. Priya learned about
+                    <span class="green">solar power</span> at school. She had an
+                    idea. She put <span class="purple">solar panels</span> on
+                    the <span class="purple">roofs of houses</span>. During the
+                    day, the panels caught <span class="green">sunlight</span>.
+                    <span class="yellow">At night</span>, during a
+                    <span class="yellow">full moon</span>, the village had
+                    <span class="yellow">bright lights</span>.
+                    <span class="yellow">Everyone was happy</span>. Priya was
+                    <span class="yellow">holding a bulb</span>.
+                  </p>
+                </div>
+                <div class="inner n0-i3 task-animated-gif">
+                  <img class="logo" src="img/agh-1-new.gif" alt="Tutorial" />
+                </div>
+              </div>
+
+              <div
+                class="page p3 simpleGrid"
+                data-type="prompt-generator"
+                data-task-id="task1"
+              >
+                <button id="submit" class="inner n0-i1 submit">Submit</button>
+                <div class="inner n0-i2 center-x-single">
+                  <h1 class="title-1">Activity 1.1</h1>
+                </div>
+                <div class="inner n0-i3 center">
+                  <p class="para">
+                    Fill in the keywords to make a prompt and generate the image
+                  </p>
+                </div>
+                <div class="inner n0-i4">
+                  <div class="inner n1-i1 table-content">
+                    <!-- Table Section -->
+                    <div id="tableSection" class="inner n2-i1 table-section">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td class="label">Task</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="taskInput"
+                              data-answer="create image"
+                            >
+                              Create image
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="label red">Subject</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="subjectInput"
+                              data-answer="young girl"
+                            ></td>
+                          </tr>
+                          <tr>
+                            <td class="label purple">Scene</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="sceneInput"
+                              data-answer="small village, roofs of house, solar panels"
+                            ></td>
+                          </tr>
+                          <tr>
+                            <td class="label">Style</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="styleInput"
+                              data-answer="animated"
+                            >
+                              Animated
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="label green">Context</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="contextInput"
+                              data-answer="solar power, sunlight"
+                            ></td>
+                          </tr>
+                          <tr>
+                            <td class="label yellow">Details</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="detailsInput"
+                              data-answer="at night, full moon, bright lights, holding a bulb, everyone was happy"
+                            ></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <button class="copyPromptBtn submitBtn">
+                        Copy Prompt
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Task 1  Multi select-->
+              <div
+                class="page p4 simpleGrid"
+                data-type="multi-select"
+                data-free="true"
+                data-task-id="task2"
+              >
+                <!-- Spread -->
+                <div class="inner n0-i1 center-x-single">
+                  <h1 class="title-1">Task 1</h1>
+                </div>
+                <div class="inner n0-i2 center">
+                  <p class="ques">
+                    Look at the picture above and say <b>"Yes or No"</b>
+                  </p>
+                </div>
+                <div class="inner n0-i3 mt-sm-single">
+                  <div
+                    class="inner-flex n1-i1 center-x-flex center-y-flex gp-sm"
+                  >
+                    <div class="inner n2-i1 border" data-answer="yes">
+                      <div class="inner n3-i1 visual center-x-single">
+                        <img src="img/1-task1.png" alt="" />
+                      </div>
+                      <div class="inner n3-i2 text">
+                        <p>The villagers are glad to have light</p>
+                      </div>
+                      <div class="inner-flex n3-i3 flex-between mt-xs-single">
+                        <div class="inner n4-i1">
+                          <button class="action-btn ans-multi">Yes</button>
+                        </div>
+                        <div class="inner n4-i2">
+                          <button class="action-btn ans-multi">No</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="inner n2-i2 border" data-answer="no">
+                      <div class="inner n3-i1 visual center-x-single">
+                        <img src="img/1-task2.png" alt="" />
+                      </div>
+                      <div class="inner n3-i2 text">
+                        <p>People are standing beside Priya</p>
+                      </div>
+                      <div
+                        class="inner-flex n3-i3 flex-between mt-sm-single text-top"
+                      >
+                        <div class="inner n4-i1">
+                          <button class="action-btn ans-multi">Yes</button>
+                        </div>
+                        <div class="inner n4-i2">
+                          <button class="action-btn ans-multi">No</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="inner-flex center-x-flex center-y-flex gp-sm mt-sm-single"
+                  >
+                    <div class="inner n1-i2 border" data-answer="yes">
+                      <div class="inner n2-i1 visual center-x-single">
+                        <img src="img/1-task4.png" alt="" />
+                      </div>
+                      <div class="inner n2-i2 text">
+                        <p>Priya is holding the light bulb in her hand.</p>
+                      </div>
+                      <div class="inner-flex n2-i3 flex-between mt-sm-single">
+                        <div class="inner n3-i1">
+                          <button class="action-btn ans-multi">Yes</button>
+                        </div>
+                        <div class="inner n3-i2">
+                          <button class="action-btn ans-multi">No</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="inner n1-i2 border" data-answer="yes">
+                      <div class="inner n2-i1 visual center-x-single">
+                        <img src="img/1-task7.png" alt="" />
+                      </div>
+                      <div class="inner n2-i2 text">
+                        <p>
+                          People are cheering Priya by clapping their hands.
+                        </p>
+                      </div>
+                      <div class="inner-flex n2-i3 flex-between mt-sm-single">
+                        <div class="inner n3-i1">
+                          <button class="action-btn ans-multi">Yes</button>
+                        </div>
+                        <div class="inner n3-i2">
+                          <button class="action-btn ans-multi">No</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="page p5 simpleGrid"
+                data-type="multi-select"
+                data-task-id="task2"
+              >
+                <button id="submit" class="inner n0-i1 submit">Submit</button>
+
+                <div class="inne n0-i2 top">
+                  <div
+                    class="inner-flex n1-i1 gp-sm center-x-flex center-y-flex"
+                  >
+                    <div class="inner n2-i1 border" data-answer="yes">
+                      <div class="inner n3-i1 visual center-x-single">
+                        <img src="img/1-task3.png" alt="" />
+                      </div>
+                      <div class="inner n3-i2 text">
+                        <p>Priya learnt about solar energy in school.</p>
+                      </div>
+                      <div class="inner-flex n3-i3 flex-between mt-sm-single">
+                        <div class="inner n3-i1">
+                          <button class="action-btn ans-multi">Yes</button>
+                        </div>
+                        <div class="inner n3-i2">
+                          <button class="action-btn ans-multi">No</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="inner n1-i2 border" data-answer="yes">
+                      <div class="inner n2-i1 visual center-x-single">
+                        <img src="img/1-task5.png" alt="" />
+                      </div>
+                      <div class="inner n2-i2 text">
+                        <p>
+                          Solar panels are kept on rooftop to catch sunlight.
+                        </p>
+                      </div>
+                      <div class="inner-flex n2-i3 flex-between mt-sm-single">
+                        <div class="inner n4-i1">
+                          <button class="action-btn ans-multi">Yes</button>
+                        </div>
+                        <div class="inner n4-i2">
+                          <button class="action-btn ans-multi">No</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="inner-flex n1-i2 gp-sm mt-sm-single center-x-flex center-y-flex"
+                  >
+                    <div class="inner n2-i1 border" data-answer="no">
+                      <div class="inner n3-i1 visual center-x-single">
+                        <img src="img/1-task6.png" alt="" />
+                      </div>
+                      <div class="inner n3-i2 text">
+                        <p>Priya is not proud about her innovation.</p>
+                      </div>
+                      <div class="inner-flex n3-i3 flex-between mt-sm-single">
+                        <div class="inner n4-i1">
+                          <button class="action-btn ans-multi">Yes</button>
+                        </div>
+                        <div class="inner n4-i2">
+                          <button class="action-btn ans-multi">No</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="inner n2-i2 border" data-answer="yes">
+                      <div class="inner n3-i1 visual center-x-single">
+                        <img src="img/1-task8.png" alt="" />
+                      </div>
+                      <div class="inner n3-i2 text">
+                        <p>
+                          Solar panels store sunlight in batteries for night
+                          use.
+                        </p>
+                      </div>
+                      <div class="inner-flex n3-i3 flex-between mt-sm-single">
+                        <div class="inner n4-i1">
+                          <button class="action-btn ans-multi">Yes</button>
+                        </div>
+                        <div class="inner n4-i2">
+                          <button class="action-btn ans-multi">No</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Task 2  Tile-->
+              <div
+                class="page p6 simpleGrid"
+                data-type="tiles"
+                data-task-id="task3"
+              >
+                <div class="inner n0-i1 center-x-single">
+                  <h1 class="title-1">Task 2</h1>
+                </div>
+                <div class="inner n0-i2 center">
+                  <p class="ques">Match words to objects</p>
+                </div>
+                <div
+                  class="inner-col n0-i3 center-x-all mt-sm-single tile-card"
+                  style="--col: 2"
+                >
+                  <div class="inner n1-i1">
+                    <div class="inner n2-i1 ans-tiles left" data-id="1">
+                      <p>1. Windmill</p>
+                    </div>
+                    <div class="inner n2-i2 ans-tiles left" data-id="2">
+                      <p>2. Moon</p>
+                    </div>
+                    <div class="inner n2-i3 ans-tiles left" data-id="3">
+                      <p>3. Solar Panels</p>
+                    </div>
+                    <div class="inner n2-i4 ans-tiles left" data-id="4">
+                      <p>4. Clapping Hands</p>
+                    </div>
+                    <div class="inner n2-i5 ans-tiles left" data-id="5">
+                      <p>5. Light bulb</p>
+                    </div>
+                  </div>
+                  <div class="inner n1-i2">
+                    <div class="inner n2-i1 ans-tiles left" data-id="6">
+                      <p>6. Night Sky</p>
+                    </div>
+                    <div class="inner n2-i2 ans-tiles left" data-id="7">
+                      <p>7. Priya</p>
+                    </div>
+                    <div class="inner n2-i3 ans-tiles left" data-id="8">
+                      <p>8. Green shirt</p>
+                    </div>
+                    <div class="inner n2-i4 ans-tiles left" data-id="9">
+                      <p>9. String lights</p>
+                    </div>
+                    <div class="inner n2-i5 ans-tiles left" data-id="10">
+                      <p>10. Rooftops</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="page p7 simpleGrid"
+                data-type="tiles"
+                data-task-id="task3"
+              >
+                <button id="submit" class="inner n0-i1 submit">Submit</button>
+                <div class="inner n0-i2">
+                  <div class="inner n1-i1 logo mt-lg-single">
+                    <img src="img/1-hero.png" alt="" />
+                  </div>
+                  <div
+                    class="inner n1-i1 tile-1 tile"
+                    data-answer="1. windmill"
+                  ></div>
+                  <div
+                    class="inner n1-i2 tile-2 tile"
+                    data-answer="2. moon"
+                  ></div>
+                  <div
+                    class="inner n1-i3 tile-3 tile"
+                    data-answer="3. solar panels"
+                  ></div>
+                  <div
+                    class="inner n1-i4 tile-4 tile"
+                    data-answer="4. Clapping hands"
+                  ></div>
+                  <div
+                    class="inner n1-i5 tile-5 tile"
+                    data-answer="5. light bulb"
+                  ></div>
+                  <div
+                    class="inner n1-i6 tile-6 tile"
+                    data-answer="6. night sky"
+                  ></div>
+                  <div
+                    class="inner n1-i7 tile-7 tile"
+                    data-answer="7. priya"
+                  ></div>
+                  <div
+                    class="inner n1-i8 tile-8 tile"
+                    data-answer="8. green shirt"
+                  ></div>
+                  <div
+                    class="inner n1-i9 tile-9 tile"
+                    data-answer="9. string lights"
+                  ></div>
+                  <div
+                    class="inner n1-i10 tile-10 tile"
+                    data-answer="10. rooftops"
+                  ></div>
+                </div>
+              </div>
+
+              <!-- Task 3 Image -->
+              <div
+                class="page p8 simpleGrid"
+                data-type="prompt-generator"
+                data-task-id="task4"
+              >
+                <div class="inner n0-i1 task-static-image">
+                  <img class="logo" src="img/1-image6.png" alt="" />
+                </div>
+                <div class="inner n0-i2 mt-md-single task-content">
+                  <p class="para1">
+                    Priya is a <span class="red">young girl</span> who lived in
+                    a <span class="purple">small village</span> with many
+                    <span class="purple">houses</span>. Every evening,
+                    <span class="yellow">at night</span>, the village became
+                    dark. At school, Priya learned about
+                    <span class="green">solar power</span> and had a wonderful
+                    idea. She placed <span class="purple">solar panels</span> on
+                    the <span class="purple">roofs</span> of the houses. During
+                    the day, the panels collected
+                    <span class="green">sunlight</span>.
+                    <span class="yellow">At night</span>, under the
+                    <span class="yellow">full moon</span>, the village glowed
+                    with <span class="yellow">bright lights</span>.
+                    <span class="yellow">Everyone was happy</span>. Priya,
+                    wearing a <span class="yellow">pink dress</span> and a
+                    <span class="yellow">pink kurta</span>, stood proudly
+                    <span class="yellow">holding a bulb</span>, smiling as her
+                    village shone with light.
+                  </p>
+                </div>
+                <div class="inner n0-i3 task-animated-gif">
+                  <img class="logo" src="img/agh-1-new.gif" alt="" />
+                </div>
+              </div>
+              <div
+                class="page p9 simpleGrid"
+                data-type="prompt-generator"
+                data-task-id="task4"
+              >
+                <button id="submit" class="inner n0-i1 submit">Submit</button>
+                <div class="inner n0-i2 center-x-single">
+                  <h1 class="title-1">Task 3</h1>
+                </div>
+                <div class="inner n0-i3 center">
+                  <p class="para">
+                    Fill in the keywords to make a prompt and generate the image
+                  </p>
+                </div>
+                <div class="inner n0-i4">
+                  <div class="inner n1-i1 table-content">
+                    <!-- Table Section -->
+                    <div id="tableSection" class="inner n2-i1 table-section">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td class="label">Task</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="taskInput"
+                              data-answer="create image"
+                            >
+                              Create image
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="label red">Subject</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="subjectInput"
+                              data-answer="young girl"
+                            ></td>
+                          </tr>
+                          <tr>
+                            <td class="label purple">Scene</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="sceneInput"
+                              data-answer="small village, houses, roofs, solar panels"
+                            ></td>
+                          </tr>
+                          <tr>
+                            <td class="label">Style</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="styleInput"
+                              data-answer="animated"
+                            >
+                              Animated
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="label green">Context</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="contextInput"
+                              data-answer="solar power, sunlight"
+                            ></td>
+                          </tr>
+                          <tr>
+                            <td class="label yellow">Details</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="detailsInput"
+                              data-answer="at night, full moon, bright lights, holding a bulb, everyone was happy, pink dress, pink kurta"
+                            ></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <button class="copyPromptBtn submitBtn">
+                        Copy Prompt
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Task 4 Image -->
+              <div
+                class="page p10 simpleGrid"
+                data-type="prompt-generator"
+                data-task-id="task5"
+              >
+                <div class="inner n0-i1 task-static-image">
+                  <img class="logo" src="img/1-image2.png" alt="" />
+                </div>
+                <div class="inner n0-i2 mt-md-single task-content">
+                  <p class="para1">
+                    Priya is a <span class="red">young girl</span> who lived in
+                    a <span class="purple">small village</span> with many
+                    <span class="purple">houses</span>. During the
+                    <span class="yellow">daytime</span>, the
+                    <span class="yellow">sun</span> shone brightly over the
+                    village. At school, Priya learned about
+                    <span class="green">solar power</span> and had a smart idea.
+                    She placed <span class="purple">solar panels</span> on the
+                    <span class="purple">roofs</span> of the houses. The panels
+                    collected <span class="green">sunlight</span> and turned it
+                    into energy. Soon, the village had
+                    <span class="yellow">bright lights</span>, and
+                    <span class="yellow">everyone was happy</span>. Priya,
+                    wearing a <span class="yellow">pink dress</span> and a
+                    <span class="yellow">pink kurta</span>, stood smiling and
+                    <span class="yellow">holding a bulb</span>, proud of how
+                    solar power helped her village.
+                  </p>
+                </div>
+                <div class="inner n0-i3 task-animated-gif">
+                  <img class="logo" src="img/agh-1-new.gif" alt="" />
+                </div>
+              </div>
+              <div
+                class="page p11 simpleGrid"
+                data-type="prompt-generator"
+                data-task-id="task5"
+              >
+                <button id="submit" class="inner n0-i1 submit">Submit</button>
+                <div class="inner n0-i2 center-x-single">
+                  <h1 class="title-1">Task 4</h1>
+                </div>
+                <div class="inner n0-i3 center">
+                  <p class="para">
+                    Fill in the keywords to make a prompt and generate the image
+                  </p>
+                </div>
+                <div class="inner n0-i4">
+                  <div class="inner n1-i1 table-content">
+                    <!-- Table Section -->
+                    <div id="tableSection" class="inner n2-i1 table-section">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td class="label">Task</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="taskInput"
+                              data-answer="create image"
+                            >
+                              Create image
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="label red">Subject</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="subjectInput"
+                              data-answer="young girl"
+                            ></td>
+                          </tr>
+                          <tr>
+                            <td class="label purple">Scene</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="sceneInput"
+                              data-answer="small village, houses, roofs, solar panels"
+                            ></td>
+                          </tr>
+                          <tr>
+                            <td class="label">Style</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="styleInput"
+                              data-answer="animated"
+                            >
+                              Animated
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="label green">Context</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="contextInput"
+                              data-answer="solar power, sunlight"
+                            ></td>
+                          </tr>
+                          <tr>
+                            <td class="label yellow">Details</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="detailsInput"
+                              data-answer="bright lights, holding a bulb, everyone was happy, pink dress, pink kurta, daytime, sun"
+                            ></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <button class="copyPromptBtn submitBtn">
+                        Copy Prompt
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Task 5 Image -->
+              <div
+                class="page p12 simpleGrid"
+                data-type="prompt-generator"
+                data-task-id="task6"
+              >
+                <div class="inner n0-i1 task-static-image">
+                  <img class="logo" src="img/1-image3.png" alt="" />
+                </div>
+                <div class="inner n0-i3 mt-md-single task-content">
+                  <p class="para1">
+                    Priya and Anya are
+                    <span class="red">two young girls</span> who lived in a
+                    <span class="purple">small village</span> with many
+                    <span class="purple">houses</span>. During the
+                    <span class="yellow">daytime</span>, the
+                    <span class="yellow">sun</span> shone brightly over the
+                    village. At school, they learned about
+                    <span class="green">solar power</span> and had a smart idea.
+                    They placed <span class="purple">solar panels</span> on the
+                    <span class="purple">roofs of the houses</span>. The panels
+                    collected <span class="green">sunlight</span> and turned it
+                    into energy. Soon, the village had
+                    <span class="yellow">bright lights</span>, and
+                    <span class="yellow">everyone was happy</span>. The girls
+                    stood together <span class="yellow">holding a bulb</span>,
+                    proud of how solar power helped their village.
+                  </p>
+                </div>
+                <div class="inner n0-i4 task-animated-gif">
+                  <img class="logo" src="img/agh-1-new.gif" alt="" />
+                </div>
+              </div>
+              <div
+                class="page p13 simpleGrid"
+                data-type="prompt-generator"
+                data-task-id="task6"
+              >
+                <button id="submit" class="inner n0-i1 submit">Submit</button>
+                <div class="inner n0-i2 center-x-single">
+                  <h1 class="title-1">Task 5</h1>
+                </div>
+                <div class="inner n0-i3 center">
+                  <p class="para">
+                    Fill in the keywords to make a prompt and generate the image
+                  </p>
+                </div>
+                <div class="inner n0-i4">
+                  <div class="inner n1-i1 table-content">
+                    <!-- Table Section -->
+                    <div id="tableSection" class="inner n2-i1 table-section">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td class="label">Task</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="taskInput"
+                              data-answer="create image"
+                            >
+                              Create image
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="label red">Subject</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="subjectInput"
+                              data-answer="two young girls"
+                            ></td>
+                          </tr>
+                          <tr>
+                            <td class="label purple">Scene</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="sceneInput"
+                              data-answer="small village, houses, roofs of the houses, solar panels"
+                            ></td>
+                          </tr>
+                          <tr>
+                            <td class="label">Style</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="styleInput"
+                              data-answer="animated"
+                            >
+                              Animated
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="label green">Context</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="contextInput"
+                              data-answer="solar power, sunlight"
+                            ></td>
+                          </tr>
+                          <tr>
+                            <td class="label yellow">Details</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="detailsInput"
+                              data-answer="bright lights, holding a bulb, everyone was happy, daytime, sun"
+                            ></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <button class="copyPromptBtn submitBtn">
+                        Copy Prompt
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Dropdown logic Task 6 -->
+              <div
+                class="page p14 simpleGrid"
+                data-type="select"
+                data-task-id="task7"
+              >
+                <div class="inner n0-i1 center-x-single">
+                  <h1 class="title-1">Task 6</h1>
+                </div>
+                <div class="inner n0-i2">
+                  <p class="ques">Choose the correct answer for each picture</p>
+                </div>
+                <div
+                  class="inner drop-card mt-sm-single center-y-all center-x-all"
+                >
+                  <div class="inner-flex-col drop-image center-x-flex">
+                    <img src="img/1-drop1.png" alt="" />
+                  </div>
+                  <div class="logic-card right" data-answer="village">
+                    <!-- Active / Header -->
+                    <div class="logic-header">
+                      <div class="logic-left">
+                        <span id="logicText">Answer</span>
+                      </div>
+                      <span class="dropdown-icon"
+                        ><img src="img/leveldropdown.svg" alt=""
+                      /></span>
+                    </div>
+                    <!-- Options -->
+                    <div class="logic-list">
+                      <div class="logic-item ans-select">Village</div>
+                      <div class="logic-item ans-select">School</div>
+                      <div class="logic-item ans-select">Home</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="inner drop-card mt-sm-single">
+                  <div class="logic-card" data-answer="School">
+                    <!-- Active / Header -->
+                    <div class="logic-header">
+                      <div class="logic-left">
+                        <span id="logicText">Answer</span>
+                      </div>
+                      <span class="dropdown-icon"
+                        ><img src="img/leveldropdown.svg" alt=""
+                      /></span>
+                    </div>
+                    <!-- Options -->
+                    <div class="logic-list">
+                      <div class="logic-item ans-select">Village</div>
+                      <div class="logic-item ans-select">School</div>
+                      <div class="logic-item ans-select">Home</div>
+                    </div>
+                  </div>
+                  <div class="inner drop-image">
+                    <img src="img/1-drop2.png" alt="" />
+                  </div>
+                </div>
+                <div class="inner drop-card mt-sm-single">
+                  <div class="inner-flex-col center-x-flex drop-image">
+                    <img src="img/1-drop3.png" alt="" />
+                  </div>
+                  <div class="logic-card" data-answer="home">
+                    <!-- Active / Header -->
+                    <div class="logic-header">
+                      <div class="logic-left">
+                        <span id="logicText">Answer</span>
+                      </div>
+                      <span class="dropdown-icon"
+                        ><img src="img/leveldropdown.svg" alt=""
+                      /></span>
+                    </div>
+                    <!-- Options -->
+                    <div class="logic-list">
+                      <div class="logic-item ans-select">Village</div>
+                      <div class="logic-item ans-select">School</div>
+                      <div class="logic-item ans-select">Home</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="page p15 simpleGrid"
+                data-type="select"
+                data-task-id="task7"
+              >
+                <button id="submit" class="inner n0-i1 submit">Submit</button>
+                <div class="inner drop-card top">
+                  <div class="inner-flex-col drop-image center-x-flex">
+                    <img src="img/1-drop4.png" alt="" />
+                  </div>
+                  <div class="logic-card" data-answer="solar panels">
+                    <!-- Active / Header -->
+                    <div class="logic-header">
+                      <div class="logic-left">
+                        <span id="logicText">Answer</span>
+                      </div>
+                      <span class="dropdown-icon"
+                        ><img src="img/leveldropdown.svg" alt=""
+                      /></span>
+                    </div>
+                    <!-- Options -->
+                    <div class="logic-list">
+                      <div class="logic-item ans-select">Windmill</div>
+                      <div class="logic-item ans-select">Hydro Energy</div>
+                      <div class="logic-item ans-select">Solar Panels</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="inner drop-card mt-sm-single">
+                  <div class="logic-card" data-answer="windmill">
+                    <!-- Active / Header -->
+                    <div class="logic-header">
+                      <div class="logic-left">
+                        <span id="logicText">Answer</span>
+                      </div>
+                      <span class="dropdown-icon"
+                        ><img src="img/leveldropdown.svg" alt=""
+                      /></span>
+                    </div>
+                    <!-- Options -->
+                    <div class="logic-list">
+                      <div class="logic-item ans-select">Solar Panels</div>
+                      <div class="logic-item ans-select">Windmill</div>
+                      <div class="logic-item ans-select">Hydro Energy</div>
+                    </div>
+                  </div>
+                  <div class="inner-flex-col center-x-flex drop-image">
+                    <img src="img/1-drop5.png" alt="" />
+                  </div>
+                </div>
+                <div class="inner drop-card mt-sm-single">
+                  <div class="inner-flex-col drop-image center-x-flex">
+                    <img src="img/1-drop6.png" alt="" />
+                  </div>
+                  <div class="logic-card" data-answer="hydro energy">
+                    <!-- Active / Header -->
+                    <div class="logic-header">
+                      <div class="logic-left">
+                        <span id="logicText">Answer</span>
+                      </div>
+                      <span class="dropdown-icon"
+                        ><img src="img/leveldropdown.svg" alt=""
+                      /></span>
+                    </div>
+                    <!-- Options -->
+                    <div class="logic-list">
+                      <div class="logic-item ans-select">Windmill</div>
+                      <div class="logic-item ans-select">Solar Panels</div>
+                      <div class="logic-item ans-select">Hydro Energy</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Task 7 Image -->
+              <div
+                class="page p16 simpleGrid"
+                data-type="prompt-generator"
+                data-task-id="task8"
+              >
+                <div
+                  class="inner n0-i1 center-x-single table-img task-static-image"
+                >
+                  <img src="img/1-image4.png" alt="" />
+                </div>
+                <div class="inner n0-i3 mt-md-single task-content">
+                  <p class="para1">
+                    Priya is a <span class="red">young girl</span>. She lived in
+                    a <span class="purple">small village</span> with houses.
+                    Every night, the village became dark. Priya learned about
+                    <span class="green">wind power</span> at school. She had an
+                    idea. She placed <span class="purple">windmills</span> near
+                    the village, behind the <span class="purple">houses</span>.
+                    During the day, the windmills turned with the wind.
+                    <span class="yellow">At night</span>, during a
+                    <span class="yellow">full moon</span>, the village had
+                    <span class="yellow">bright lights</span>.
+                    <span class="yellow">Everyone was happy</span>. Priya was
+                    <span class="yellow">holding a windmill</span>.
+                  </p>
+                </div>
+                <div class="inner n0-i4 center-x-single task-animated-gif">
+                  <img class="logo" src="img/agh-1-new.gif" alt="" />
+                </div>
+              </div>
+              <div
+                class="page p17 simpleGrid"
+                data-type="prompt-generator"
+                data-task-id="task8"
+              >
+                <button id="submit" class="inner n0-i1 submit">Submit</button>
+                <div class="inner n0-i2 center-x-single">
+                  <h1 class="title-1">Activity 1.2</h1>
+                </div>
+                <div class="inner n0-i3 center">
+                  <p class="para">
+                    Fill in the keywords to make a prompt and generate the image
+                  </p>
+                </div>
+                <div class="inner n0-i4">
+                  <div class="inner n1-i1 table-content">
+                    <!-- Table Section -->
+                    <div id="tableSection" class="inner n2-i1 table-section">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td class="label">Task</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="taskInput"
+                              data-answer="create image"
+                            >
+                              Create image
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="label red">Subject</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="subjectInput"
+                              data-answer="young girl"
+                            ></td>
+                          </tr>
+                          <tr>
+                            <td class="label purple">Scene</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="sceneInput"
+                              data-answer="small village, houses, windmills"
+                            ></td>
+                          </tr>
+                          <tr>
+                            <td class="label">Style</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="styleInput"
+                              data-answer="animated"
+                            >
+                              Animated
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="label green">Context</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="contextInput"
+                              data-answer="wind power"
+                            ></td>
+                          </tr>
+                          <tr>
+                            <td class="label yellow">Details</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="detailsInput"
+                              data-answer="at night, full moon, bright lights, holding a windmill, everyone was happy"
+                            ></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <button class="copyPromptBtn submitBtn">
+                        Copy Prompt
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Task 8 Image -->
+              <div
+                class="page p18 simpleGrid"
+                data-type="prompt-generator"
+                data-task-id="task9"
+              >
+                <div
+                  class="inner n0-i1 center-x-single table-img task-static-image"
+                >
+                  <img src="img/1-image5.png" alt="" />
+                </div>
+                <div class="inner n0-i3 mt-md-single task-content">
+                  <p class="para1">
+                    Priya is a <span class="red">young girl</span>. She was in
+                    her <span class="purple">school classroom</span>, wearing an
+                    <span class="yellow">orange kurta</span>. At school, Priya
+                    learned about <span class="green">hydro power</span>,
+                    <span class="green">electric power</span>, and
+                    <span class="green">energy</span>. She had an idea and
+                    brought a dam model to class to explain how water can make
+                    electricity. The
+                    <span class="yellow">students were looking</span> with
+                    interest as Priya was
+                    <span class="yellow">holding the dam model</span> and shared
+                    her idea. The <span class="yellow">classroom</span> felt
+                    bright with learning, and
+                    <span class="yellow">everyone was happy</span>.
+                  </p>
+                </div>
+                <div class="inner n0-i4 center-x-single task-animated-gif">
+                  <img class="logo" src="img/agh-1-new.gif" alt="" />
+                </div>
+              </div>
+              <div
+                class="page p19 simpleGrid"
+                data-type="prompt-generator"
+                data-task-id="task9"
+              >
+                <button id="submit" class="inner n0-i1 submit">Submit</button>
+                <div class="inner n0-i2 center-x-single">
+                  <h1 class="title-1">Activity 1.3</h1>
+                </div>
+                <div class="inner n0-i3 center">
+                  <p class="para">
+                    Fill in the keywords to make a prompt and generate the image
+                  </p>
+                </div>
+                <div class="inner n0-i4">
+                  <div class="inner n1-i1 table-content">
+                    <!-- Table Section -->
+                    <div id="tableSection" class="inner n2-i1 table-section">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td class="label">Task</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="taskInput"
+                              data-answer="create image"
+                            >
+                              Create image
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="label red">Subject</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="subjectInput"
+                              data-answer="young girl"
+                            ></td>
+                          </tr>
+                          <tr>
+                            <td class="label purple">Scene</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="sceneInput"
+                              data-answer="school, classroom"
+                            ></td>
+                          </tr>
+                          <tr>
+                            <td class="label">Style</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="styleInput"
+                              data-answer="animated"
+                            >
+                              Animated
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="label green">Context</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="contextInput"
+                              data-answer="hydro power, electric power, energy"
+                            ></td>
+                          </tr>
+                          <tr>
+                            <td class="label yellow">Details</td>
+                            <td
+                              class="editable"
+                              contenteditable="true"
+                              id="detailsInput"
+                              data-answer="holding the dam model, students were looking, classroom, orange kurta, everyone was happy"
+                            ></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <button class="copyPromptBtn submitBtn">
+                        Copy Prompt
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="page hard p20 simpleGrid main" data-free="true">
+                <!-- First page -->
+                <div class="inner n0-i1">
+                  <img src="img/last-page.png" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div id="flipbook-nav">
+              <button
+                id="prev-btn"
+                class="nav-btn prev-btn"
+                title="Previous Page"
+              >
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+              <button id="next-btn" class="nav-btn next-btn" title="Next Page">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+          <!-- <div id="resultPopup" class="result-popup">
+         <div id="resultBox" class="result-box">✓</div>
+         </div> -->
+          <!-- Add before closing body tag or near flipbook -->
+
+          <!-- Update your result popup to use images -->
+          <div id="resultPopup" class="popup">
+            <div id="resultBox" class="result-box">
+              <img id="resultImage" src="" alt="" />
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+
+  <!-- Browser Image Compression library -->
+  <script src="https://cdn.jsdelivr.net/npm/browser-image-compression@2.0.2/dist/browser-image-compression.js"></script>
+
+  <!-- jQuery (required for Turn.js) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- Turn.js library -->
+  <script src="js/turn.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+  <script src="js/script.js"></script>
+  <script src="js/main.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      // Initialize Turn.js
+      var flipbook = $("#flipbook");
+
+      flipbook.turn({
+        width: 900, // Total width for 2 pages
+        height: 600, // Page height
+        autoCenter: true, // Centers the book
+        display: "double", // Display 2 pages at once (spread)
+        acceleration: false, // Hardware acceleration
+        elevation: 50, // Shadow depth
+        gradients: true, // Page gradient
+        corners: "none",
+        cornerSize: 0,
+        when: {
+          turned: function (e, page, view) {
+            console.log("Current page: " + page);
+            console.log("View: ", view);
+          },
+        },
+      });
+      flipbook.unbind("mousedown touchstart");
+      flipbook.find(".page").unbind("mousedown");
+    });
+  </script>
+</html>
